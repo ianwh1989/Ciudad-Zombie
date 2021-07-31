@@ -1,0 +1,34 @@
+body {
+  background-image: url('../imagenes/fondo.png');
+}
+
+/* div que usaremos para la introduccion del juego */
+#iniciodos {
+   margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+  background-image: url("../imagenes/Mensaje1.png");
+  width: 961px;
+  height: 577px;
+  opacity: 1;
+
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+
+}
+
+.boton-recargar {
+  margin: auto;
+  display: flex;
+  background: none;
+  border: none;
+  color: white;
+  font-family: monospace;
+  visibility: hidden;
+}
+
+
